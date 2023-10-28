@@ -235,15 +235,16 @@
 
         <Button
             android:id="@+id/button"
-            android:layout_width="147dp"
-            android:layout_height="52dp"
-            android:text="Papel"
+            android:layout_width="117dp"
+            android:layout_height="51dp"
             android:backgroundTint="@color/GreenALL"
+            android:text="Papel"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.326"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.018" />
+            app:layout_constraintVertical_bias="0.022" />
 
         <TextView
             android:id="@+id/textView11"
@@ -335,6 +336,20 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.918" />
+
+        <Button
+            android:id="@+id/button10"
+            android:layout_width="104dp"
+            android:layout_height="49dp"
+            android:backgroundTint="@color/grey"
+            android:text="Cartón"
+            android:textColor="@color/black"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.708"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.022" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
