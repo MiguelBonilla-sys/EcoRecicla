@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "164786302115",
+    "project_id": "ecorecicla-36mbat",
+    "storage_bucket": "ecorecicla-36mbat.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:164786302115:android:b2e80ca7b897238cde2316",
+        "android_client_info": {
+          "package_name": "com.example.ecorecicla"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDXASgK69DcRH9PvMYo0k9F7xOS8pYW0dQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
