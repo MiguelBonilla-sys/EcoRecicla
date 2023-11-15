@@ -130,10 +130,14 @@
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/constraintLayout5"
-        android:layout_width="337dp"
-        android:layout_height="190dp"
-        tools:layout_editor_absoluteX="29dp"
-        tools:layout_editor_absoluteY="170dp">
+        android:layout_width="345dp"
+        android:layout_height="179dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.53"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.333">
 
         <ImageView
             android:id="@+id/imageView28"
@@ -142,10 +146,10 @@
             android:src="@drawable/Fplastico1"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.94"
+            app:layout_constraintHorizontal_bias="0.936"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.862" />
+            app:layout_constraintVertical_bias="0.987" />
 
         <ImageView
             android:id="@+id/imageView14"
@@ -231,14 +235,14 @@
         app:layout_constraintHorizontal_bias="0.459"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/constraintLayout5"
-        app:layout_constraintVertical_bias="0.029">
+        app:layout_constraintVertical_bias="0.241">
 
         <Button
             android:id="@+id/button"
             android:layout_width="147dp"
             android:layout_height="52dp"
-            android:text="Vidrio"
             android:backgroundTint="@color/GreenALL"
+            android:text="Vidrio"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -327,8 +331,8 @@
             android:id="@+id/button3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Guardar"
             android:backgroundTint="@color/GreenALL"
+            android:text="Guardar"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.882"
