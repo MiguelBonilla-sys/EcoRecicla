@@ -9,6 +9,6 @@ public class categoryPapelYCarton extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_category_papel_ycarton);
+        setContentView(R.layout.activity_category_papel);
     }
 }

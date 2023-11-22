@@ -8,7 +8,7 @@
     tools:context=".Consejos">
 
     <ImageView
-        android:id="@+id/imageView8"
+        android:id="@+id/imageViewConsejos"
         android:layout_width="724dp"
         android:layout_height="1264dp"
         android:layout_marginBottom="96dp"
@@ -18,7 +18,7 @@
         tools:layout_editor_absoluteX="-176dp"
         tools:ignore="MissingConstraints" />
     <androidx.constraintlayout.widget.ConstraintLayout
-        android:id="@+id/constraintLayout4"
+        android:id="@+id/constraintLayoutSearchConsejos"
         android:layout_width="370dp"
         android:layout_height="71dp"
         android:orientation="vertical"
@@ -26,12 +26,12 @@
         tools:layout_editor_absoluteY="46dp"
         tools:ignore="MissingConstraints">
         <androidx.constraintlayout.widget.ConstraintLayout
-            android:id="@+id/constraintLayout6"
+            android:id="@+id/constraintLayoutSearchConsejos2"
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
             <ImageView
-                android:id="@+id/imageView9"
+                android:id="@+id/imageViewContanieSearchConsejos"
                 android:layout_width="370dp"
                 android:layout_height="71dp"
                 app:srcCompat="@drawable/Search"
@@ -39,7 +39,7 @@
                 tools:layout_editor_absoluteY="0dp" />
 
             <SearchView
-                android:id="@+id/searchView2"
+                android:id="@+id/search"
                 android:layout_width="256dp"
                 android:layout_height="66dp"
                 android:layout_marginStart="16dp"
@@ -47,13 +47,13 @@
                 app:layout_constraintTop_toTopOf="parent" />
 
             <ImageButton
-                android:id="@+id/button4"
+                android:id="@+id/buttonUser"
                 android:layout_width="47dp"
                 android:layout_height="50dp"
                 android:src="@drawable/User"
                 app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="@+id/imageView9"
-                app:layout_constraintStart_toEndOf="@+id/searchView2"
+                app:layout_constraintEnd_toEndOf="@+id/imageViewContanieSearchConsejos"
+                app:layout_constraintStart_toEndOf="@+id/search"
                 app:layout_constraintTop_toTopOf="parent"
                 tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck"
                 android:contentDescription="TODO" />
@@ -64,7 +64,7 @@
     </androidx.constraintlayout.widget.ConstraintLayout>
 
     <ImageView
-        android:id="@+id/imageView13"
+        android:id="@+id/imageViewBarConsejos"
         android:layout_width="443dp"
         android:layout_height="69dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -81,24 +81,23 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.566"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/imageView13"
+        app:layout_constraintTop_toTopOf="@+id/imageViewBarConsejos"
         app:layout_constraintVertical_bias="0.0">
 
 
         <ImageButton
-            android:id="@+id/imageButton"
+            android:id="@+id/imageButtonHome"
             android:layout_width="64dp"
             android:layout_height="64dp"
             android:layout_marginStart="4dp"
             app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toStartOf="@+id/imageButton1"
+            app:layout_constraintEnd_toStartOf="@+id/imageButtonCategorys"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:srcCompat="@drawable/Home"
-            tools:ignore="SpeakableTextPresentCheck" />
+            app:srcCompat="@drawable/Home" />
 
         <ImageButton
-            android:id="@+id/imageButton1"
+            android:id="@+id/imageButtonCategorys"
             android:layout_width="53dp"
             android:layout_height="54dp"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -106,11 +105,10 @@
             app:layout_constraintHorizontal_bias="0.324"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:srcCompat="@drawable/Categorias"
-            tools:ignore="SpeakableTextPresentCheck" />
+            app:srcCompat="@drawable/Categorias" />
 
         <ImageButton
-            android:id="@+id/imageButton2"
+            android:id="@+id/imageButtonEstadistcs"
             android:layout_width="58dp"
             android:layout_height="58dp"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -118,11 +116,10 @@
             app:layout_constraintHorizontal_bias="0.617"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:srcCompat="@drawable/Estadistica"
-            tools:ignore="SpeakableTextPresentCheck" />
+            app:srcCompat="@drawable/Estadistica" />
 
         <ImageButton
-            android:id="@+id/imageButton3"
+            android:id="@+id/imageButtonComunity"
             android:layout_width="64dp"
             android:layout_height="64dp"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -130,28 +127,28 @@
             app:layout_constraintHorizontal_bias="0.946"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:srcCompat="@drawable/Comunidad"
-            tools:ignore="SpeakableTextPresentCheck" />
+            app:srcCompat="@drawable/Comunidad" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 
     <ImageView
         android:id="@+id/imageView10"
         android:layout_width="425dp"
         android:layout_height="468dp"
-        app:layout_constraintBottom_toTopOf="@+id/imageView13"
-        app:layout_constraintTop_toBottomOf="@+id/constraintLayout4"
+        android:layout_marginBottom="24dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageViewBarConsejos"
+        app:layout_constraintTop_toBottomOf="@+id/constraintLayoutSearchConsejos"
         app:srcCompat="@drawable/FondoInWHI"
         tools:layout_editor_absoluteX="-7dp" />
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="317dp"
         android:layout_height="466dp"
-        app:layout_constraintBottom_toBottomOf="@+id/imageView10"
+        app:layout_constraintBottom_toTopOf="@+id/imageViewBarConsejos"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.51"
+        app:layout_constraintHorizontal_bias="0.55"
         app:layout_constraintStart_toStartOf="@+id/imageView10"
-        app:layout_constraintTop_toBottomOf="@+id/constraintLayout4"
-        app:layout_constraintVertical_bias="1.0">
+        app:layout_constraintTop_toBottomOf="@+id/constraintLayoutSearchConsejos"
+        app:layout_constraintVertical_bias="0.367">
 
         <TextView
             android:id="@+id/titleConsejos"
@@ -167,7 +164,7 @@
             app:layout_constraintTop_toTopOf="parent" />
 
         <TextView
-            android:id="@+id/textView13"
+            android:id="@+id/textViewConsejos"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="TextView"

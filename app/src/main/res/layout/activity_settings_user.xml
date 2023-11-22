@@ -9,7 +9,7 @@
 
 
     <ImageView
-        android:id="@+id/imageView8"
+        android:id="@+id/imageViewSettings"
         android:layout_width="724dp"
         android:layout_height="1264dp"
         android:layout_marginBottom="96dp"
@@ -19,7 +19,7 @@
         tools:layout_editor_absoluteX="-176dp" />
 
     <ImageView
-        android:id="@+id/imageView13"
+        android:id="@+id/imageViewCircleSettings"
         android:layout_width="443dp"
         android:layout_height="69dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -27,30 +27,30 @@
         tools:layout_editor_absoluteX="-16dp" />
 
     <androidx.constraintlayout.widget.ConstraintLayout
-        android:id="@+id/constraintLayout8"
+        android:id="@+id/imageViewBarSettings"
         android:layout_width="361dp"
         android:layout_height="64dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.566"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/imageView13"
+        app:layout_constraintTop_toTopOf="@+id/imageViewCircleSettings"
         app:layout_constraintVertical_bias="0.0">
 
 
         <ImageButton
-            android:id="@+id/imageButton"
+            android:id="@+id/imageButtonHome"
             android:layout_width="64dp"
             android:layout_height="64dp"
             android:layout_marginStart="4dp"
             app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toStartOf="@+id/imageButton1"
+            app:layout_constraintEnd_toStartOf="@+id/imageButtonCategorys"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:srcCompat="@drawable/Home" />
 
         <ImageButton
-            android:id="@+id/imageButton1"
+            android:id="@+id/imageButtonCategorys"
             android:layout_width="53dp"
             android:layout_height="54dp"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -61,7 +61,7 @@
             app:srcCompat="@drawable/Categorias" />
 
         <ImageButton
-            android:id="@+id/imageButton2"
+            android:id="@+id/imageButtonEstadistcs"
             android:layout_width="58dp"
             android:layout_height="58dp"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -72,7 +72,7 @@
             app:srcCompat="@drawable/Estadistica" />
 
         <ImageButton
-            android:id="@+id/imageButton3"
+            android:id="@+id/imageButtonComunity"
             android:layout_width="64dp"
             android:layout_height="64dp"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -84,7 +84,7 @@
     </androidx.constraintlayout.widget.ConstraintLayout>
 
     <ImageView
-        android:id="@+id/imageView32"
+        android:id="@+id/imageViewCircleSettings2"
         android:layout_width="234dp"
         android:layout_height="79dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -96,7 +96,7 @@
         app:srcCompat="@drawable/RectanguleCircle" />
 
     <ImageView
-        android:id="@+id/imageView30"
+        android:id="@+id/imageViewCircleSettings3"
         android:layout_width="98dp"
         android:layout_height="99dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -108,10 +108,10 @@
         app:srcCompat="@drawable/circleALL" />
 
     <ImageView
-        android:id="@+id/imageView33"
+        android:id="@+id/imageViewUserSettings"
         android:layout_width="57dp"
         android:layout_height="50dp"
-        app:layout_constraintBottom_toBottomOf="@+id/imageView13"
+        app:layout_constraintBottom_toBottomOf="@+id/imageViewBarSettings"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.129"
         app:layout_constraintStart_toStartOf="parent"
@@ -120,7 +120,7 @@
         app:srcCompat="@drawable/User" />
 
     <TextView
-        android:id="@+id/textView16"
+        android:id="@+id/textViewUserSettings"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Usuario"
@@ -132,7 +132,7 @@
         app:layout_constraintVertical_bias="0.113" />
 
     <ImageView
-        android:id="@+id/imageView34"
+        android:id="@+id/imageViewNameSettings"
         android:layout_width="341dp"
         android:layout_height="77dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -144,7 +144,7 @@
         app:srcCompat="@drawable/Menu" />
 
     <ImageView
-        android:id="@+id/imageView35"
+        android:id="@+id/imageViewEmailSettings"
         android:layout_width="341dp"
         android:layout_height="77dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -155,7 +155,7 @@
         app:srcCompat="@drawable/Menu" />
 
     <ImageView
-        android:id="@+id/imageView36"
+        android:id="@+id/imageViewPhoneSettings"
         android:layout_width="341dp"
         android:layout_height="77dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -166,7 +166,7 @@
         app:srcCompat="@drawable/Menu" />
 
     <ImageView
-        android:id="@+id/imageView37"
+        android:id="@+id/imageViewAddressSettings"
         android:layout_width="341dp"
         android:layout_height="77dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -178,7 +178,7 @@
         app:srcCompat="@drawable/Menu" />
 
     <ImageView
-        android:id="@+id/imageView38"
+        android:id="@+id/imageViewUpdateSettings"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -190,7 +190,7 @@
         app:srcCompat="@drawable/RectanguleCircle" />
 
     <androidx.constraintlayout.widget.ConstraintLayout
-        android:id="@+id/constraintLayout7"
+        android:id="@+id/constraintLayoutSettings"
         android:layout_width="338dp"
         android:layout_height="459dp"
         android:layout_marginTop="160dp"
@@ -198,7 +198,7 @@
         tools:layout_editor_absoluteX="39dp">
 
         <EditText
-            android:id="@+id/editTextText"
+            android:id="@+id/editTextTextName2"
             android:layout_width="238dp"
             android:layout_height="51dp"
             android:ems="10"
@@ -253,7 +253,7 @@
             app:layout_constraintVertical_bias="0.722" />
 
         <Button
-            android:id="@+id/button11"
+            android:id="@+id/buttonUpdateSettings"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Actualizar datos"
