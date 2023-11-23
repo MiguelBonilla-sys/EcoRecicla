@@ -54,7 +54,7 @@
             android:label="@string/title_activity_inicio"
             android:theme="@style/Theme.EcoRecicla" />
         <activity
-            android:name=".MainActivity"
+            android:name=".Login"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

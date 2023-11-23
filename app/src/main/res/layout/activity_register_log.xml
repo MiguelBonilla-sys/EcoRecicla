@@ -8,7 +8,7 @@
     tools:context=".RegisterLog">
 
     <ImageView
-        android:id="@+id/imageViewRegister"
+        android:id="@+id/imageView"
         android:layout_width="695dp"
         android:layout_height="996dp"
         android:layout_marginBottom="80dp"
@@ -24,7 +24,7 @@
         android:layout_marginTop="618dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/imageViewRegister"
+        app:layout_constraintTop_toTopOf="@+id/imageView"
         app:srcCompat="@drawable/FondoInWHI" />
 
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -173,7 +173,7 @@
             app:layout_constraintTop_toTopOf="parent" />
 
         <CheckBox
-            android:id="@+id/checkBoxTerms"
+            android:id="@+id/checkBox"
             android:layout_width="180dp"
             android:layout_height="20dp"
             android:layout_marginTop="10dp"
@@ -184,13 +184,13 @@
             app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword2" />
 
         <CheckBox
-            android:id="@+id/checkBoxTratamiento"
+            android:id="@+id/checkBox2"
             android:layout_width="180dp"
             android:layout_height="20dp"
             android:layout_marginTop="10dp"
             android:text="Acepto tratamiento de datos"
             android:textSize="10sp"
-            app:layout_constraintBottom_toTopOf="@+id/RegisterButton"
+            app:layout_constraintBottom_toTopOf="@+id/InciarSesion"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/checkBox"

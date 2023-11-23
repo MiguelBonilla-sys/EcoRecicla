@@ -8,7 +8,7 @@
     tools:context=".Estadisitica">
 
     <ImageView
-        android:id="@+id/imageViewEstadicts"
+        android:id="@+id/imageView8"
         android:layout_width="724dp"
         android:layout_height="1264dp"
         android:layout_marginBottom="96dp"
@@ -18,7 +18,7 @@
         tools:layout_editor_absoluteX="-176dp"
         tools:ignore="MissingConstraints" />
     <androidx.constraintlayout.widget.ConstraintLayout
-        android:id="@+id/constraintLayoutSearchEstadistica"
+        android:id="@+id/constraintLayout4"
         android:layout_width="370dp"
         android:layout_height="71dp"
         android:orientation="vertical"
@@ -26,12 +26,12 @@
         tools:layout_editor_absoluteY="46dp"
         tools:ignore="MissingConstraints">
         <androidx.constraintlayout.widget.ConstraintLayout
-            android:id="@+id/constraintLayoutSearchEstadistica2"
+            android:id="@+id/constraintLayout6"
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
             <ImageView
-                android:id="@+id/imageViewContainerSearchEstadistica"
+                android:id="@+id/imageView9"
                 android:layout_width="370dp"
                 android:layout_height="71dp"
                 app:srcCompat="@drawable/Search"
@@ -39,7 +39,7 @@
                 tools:layout_editor_absoluteY="0dp" />
 
             <SearchView
-                android:id="@+id/search"
+                android:id="@+id/searchView2"
                 android:layout_width="256dp"
                 android:layout_height="66dp"
                 android:layout_marginStart="16dp"
@@ -47,13 +47,13 @@
                 app:layout_constraintTop_toTopOf="parent" />
 
             <ImageButton
-                android:id="@+id/buttonUser"
+                android:id="@+id/button4"
                 android:layout_width="47dp"
                 android:layout_height="50dp"
                 android:src="@drawable/User"
                 app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="@+id/imageViewContainerSearchEstadistica"
-                app:layout_constraintStart_toEndOf="@+id/search"
+                app:layout_constraintEnd_toEndOf="@+id/imageView9"
+                app:layout_constraintStart_toEndOf="@+id/searchView2"
                 app:layout_constraintTop_toTopOf="parent"
                 tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck"
                 android:contentDescription="TODO" />
@@ -62,15 +62,17 @@
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>
+
     <ImageView
-        android:id="@+id/imageViewBarEstadistica"
+        android:id="@+id/imageView13"
         android:layout_width="443dp"
         android:layout_height="69dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/constraintLayoutSearchEstadistica"
+        app:layout_constraintTop_toBottomOf="@+id/constraintLayout4"
         app:layout_constraintVertical_bias="0.97"
         app:srcCompat="@drawable/Search"
-        tools:layout_editor_absoluteX="-16dp" />
+        tools:layout_editor_absoluteX="-16dp"
+        tools:ignore="MissingConstraints" />
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="361dp"
@@ -79,23 +81,24 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.566"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/imageViewBarEstadistica"
+        app:layout_constraintTop_toTopOf="@+id/imageView13"
         app:layout_constraintVertical_bias="0.0">
 
 
         <ImageButton
-            android:id="@+id/imageButtonHome"
+            android:id="@+id/imageButton"
             android:layout_width="64dp"
             android:layout_height="64dp"
             android:layout_marginStart="4dp"
             app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toStartOf="@+id/imageButtonCategorys"
+            app:layout_constraintEnd_toStartOf="@+id/imageButton1"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:srcCompat="@drawable/Home" />
+            app:srcCompat="@drawable/Home"
+            tools:ignore="SpeakableTextPresentCheck" />
 
         <ImageButton
-            android:id="@+id/imageButtonCategorys"
+            android:id="@+id/imageButton1"
             android:layout_width="53dp"
             android:layout_height="54dp"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -103,10 +106,11 @@
             app:layout_constraintHorizontal_bias="0.324"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:srcCompat="@drawable/Categorias" />
+            app:srcCompat="@drawable/Categorias"
+            tools:ignore="SpeakableTextPresentCheck" />
 
         <ImageButton
-            android:id="@+id/imageButtonEstadistcs"
+            android:id="@+id/imageButton2"
             android:layout_width="58dp"
             android:layout_height="58dp"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -114,10 +118,11 @@
             app:layout_constraintHorizontal_bias="0.617"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:srcCompat="@drawable/Estadistica" />
+            app:srcCompat="@drawable/Estadistica"
+            tools:ignore="SpeakableTextPresentCheck" />
 
         <ImageButton
-            android:id="@+id/imageButtonComunity"
+            android:id="@+id/imageButton3"
             android:layout_width="64dp"
             android:layout_height="64dp"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -125,26 +130,27 @@
             app:layout_constraintHorizontal_bias="0.946"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:srcCompat="@drawable/Comunidad" />
+            app:srcCompat="@drawable/Comunidad"
+            tools:ignore="SpeakableTextPresentCheck" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 
     <ImageView
-        android:id="@+id/imageViewContainerEstadistica"
+        android:id="@+id/imageView10"
         android:layout_width="425dp"
         android:layout_height="468dp"
-        app:layout_constraintBottom_toTopOf="@+id/imageViewBarEstadistica"
-        app:layout_constraintTop_toBottomOf="@+id/constraintLayoutSearchEstadistica"
+        app:layout_constraintBottom_toTopOf="@+id/imageView13"
+        app:layout_constraintTop_toBottomOf="@+id/constraintLayout4"
         app:srcCompat="@drawable/FondoInWHI"
         tools:layout_editor_absoluteX="-7dp" />
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="317dp"
         android:layout_height="466dp"
-        app:layout_constraintBottom_toBottomOf="@+id/imageViewContainerEstadistica"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView10"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.51"
-        app:layout_constraintStart_toStartOf="@+id/imageViewContainerEstadistica"
-        app:layout_constraintTop_toBottomOf="@+id/constraintLayoutSearchEstadistica"
+        app:layout_constraintStart_toStartOf="@+id/imageView10"
+        app:layout_constraintTop_toBottomOf="@+id/constraintLayout4"
         app:layout_constraintVertical_bias="1.0">
 
         <TextView
@@ -160,44 +166,27 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
+        <ImageView
+            android:id="@+id/imageView29"
+            android:layout_width="218dp"
+            android:layout_height="275dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/EstadisticaEEE" />
+
         <TextView
-            android:id="@+id/textViewEstadistica"
+            android:id="@+id/textView13"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="TextView"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.158"
+            app:layout_constraintHorizontal_bias="0.189"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.876" />
-
-        <TableLayout
-            android:id="@+id/tableLayoutEstadistica"
-            android:layout_width="315dp"
-            android:layout_height="321dp"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.393">
-
-            <TableRow
-                android:layout_width="match_parent"
-                android:layout_height="match_parent" />
-
-            <TableRow
-                android:layout_width="match_parent"
-                android:layout_height="match_parent" />
-
-            <TableRow
-                android:layout_width="match_parent"
-                android:layout_height="match_parent" />
-
-            <TableRow
-                android:layout_width="match_parent"
-                android:layout_height="match_parent" />
-        </TableLayout>
+            app:layout_constraintVertical_bias="0.852" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 

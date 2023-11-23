@@ -8,7 +8,7 @@
     tools:context=".categoryPapelYCarton">
 
     <ImageView
-        android:id="@+id/imageViewPaper"
+        android:id="@+id/imageView8"
         android:layout_width="724dp"
         android:layout_height="1264dp"
         android:alpha="0.7"
@@ -17,7 +17,7 @@
         tools:layout_editor_absoluteY="-630dp" />
 
     <androidx.constraintlayout.widget.ConstraintLayout
-        android:id="@+id/constraintLayoutSearchPaper"
+        android:id="@+id/constraintLayout4"
         android:layout_width="370dp"
         android:layout_height="71dp"
         android:orientation="vertical"
@@ -29,7 +29,7 @@
             android:layout_height="match_parent">
 
             <ImageView
-                android:id="@+id/imageViewFondoSearchPaper"
+                android:id="@+id/imageView9"
                 android:layout_width="370dp"
                 android:layout_height="71dp"
                 app:srcCompat="@drawable/Search"
@@ -37,7 +37,7 @@
                 tools:layout_editor_absoluteY="0dp" />
 
             <SearchView
-                android:id="@+id/search"
+                android:id="@+id/searchView2"
                 android:layout_width="256dp"
                 android:layout_height="66dp"
                 android:layout_marginStart="16dp"
@@ -45,13 +45,13 @@
                 app:layout_constraintTop_toTopOf="parent" />
 
             <ImageButton
-                android:id="@+id/buttonUser"
+                android:id="@+id/button4"
                 android:layout_width="47dp"
                 android:layout_height="50dp"
                 android:src="@drawable/User"
                 app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="@+id/imageViewFondoSearchPaper"
-                app:layout_constraintStart_toEndOf="@+id/search"
+                app:layout_constraintEnd_toEndOf="@+id/imageView9"
+                app:layout_constraintStart_toEndOf="@+id/searchView2"
                 app:layout_constraintTop_toTopOf="parent" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
@@ -63,40 +63,39 @@
     </androidx.constraintlayout.widget.ConstraintLayout>
 
     <ImageView
-        android:id="@+id/imageViewBarPaper"
+        android:id="@+id/imageView13"
         android:layout_width="443dp"
         android:layout_height="69dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/constraintLayoutSearchPaper"
+        app:layout_constraintTop_toBottomOf="@+id/constraintLayout4"
         app:layout_constraintVertical_bias="0.97"
         app:srcCompat="@drawable/Search"
         tools:layout_editor_absoluteX="-16dp" />
 
     <androidx.constraintlayout.widget.ConstraintLayout
-        android:id="@+id/constraintLayout9"
         android:layout_width="361dp"
         android:layout_height="64dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.566"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/imageViewBarPaper"
+        app:layout_constraintTop_toTopOf="@+id/imageView13"
         app:layout_constraintVertical_bias="0.0">
 
 
         <ImageButton
-            android:id="@+id/imageButtonHome"
+            android:id="@+id/imageButton"
             android:layout_width="64dp"
             android:layout_height="64dp"
             android:layout_marginStart="4dp"
             app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toStartOf="@+id/imageButtonCategorys"
+            app:layout_constraintEnd_toStartOf="@+id/imageButton1"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:srcCompat="@drawable/Home" />
 
         <ImageButton
-            android:id="@+id/imageButtonCategorys"
+            android:id="@+id/imageButton1"
             android:layout_width="53dp"
             android:layout_height="54dp"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -107,7 +106,7 @@
             app:srcCompat="@drawable/Categorias" />
 
         <ImageButton
-            android:id="@+id/imageButtonEstadistcs"
+            android:id="@+id/imageButton2"
             android:layout_width="58dp"
             android:layout_height="58dp"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -118,7 +117,7 @@
             app:srcCompat="@drawable/Estadistica" />
 
         <ImageButton
-            android:id="@+id/imageButtonComunity"
+            android:id="@+id/imageButton3"
             android:layout_width="64dp"
             android:layout_height="64dp"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -133,15 +132,11 @@
         android:id="@+id/constraintLayout5"
         android:layout_width="337dp"
         android:layout_height="190dp"
-        app:layout_constraintBottom_toTopOf="@+id/imageViewBarPaper"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.608"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.401">
+        tools:layout_editor_absoluteX="29dp"
+        tools:layout_editor_absoluteY="170dp">
 
         <ImageView
-            android:id="@+id/imageViewPaper2"
+            android:id="@+id/imageView28"
             android:layout_width="95dp"
             android:layout_height="97dp"
             android:src="@drawable/reciclajePapel"
@@ -153,7 +148,7 @@
             app:layout_constraintVertical_bias="0.862" />
 
         <ImageView
-            android:id="@+id/imageViewCirclePaper"
+            android:id="@+id/imageView14"
             android:layout_width="240dp"
             android:layout_height="100dp"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -165,7 +160,7 @@
             app:srcCompat="@drawable/RectanguleCircle" />
 
         <ImageView
-            android:id="@+id/imageViewCirclePaper1"
+            android:id="@+id/imageView19"
             android:layout_width="91dp"
             android:layout_height="81dp"
             android:src="@drawable/circleALL"
@@ -177,7 +172,7 @@
             app:layout_constraintVertical_bias="0.108" />
 
         <ImageView
-            android:id="@+id/imageViewPaper3"
+            android:id="@+id/imageView23"
             android:layout_width="54dp"
             android:layout_height="49dp"
             android:src="@drawable/Papel"
@@ -189,7 +184,7 @@
             app:layout_constraintVertical_bias="0.167" />
 
         <TextView
-            android:id="@+id/textPaper"
+            android:id="@+id/textView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Papel"
@@ -203,21 +198,21 @@
             app:layout_constraintVertical_bias="0.218" />
 
         <TextView
-            android:id="@+id/textViewInfoPaperCarton"
+            android:id="@+id/textView2"
             android:layout_width="217dp"
             android:layout_height="84dp"
             android:text="Reciclar papel salva árboles, reduce la contaminación y protege la biodiversidad. Únete al movimiento del reciclaje para un mundo más limpio y verde."
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.116"
+            app:layout_constraintHorizontal_bias="0.107"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.943" />
+            app:layout_constraintVertical_bias="0.993" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
     <ImageView
-        android:id="@+id/imageViewContinerPaper"
+        android:id="@+id/imageView31"
         android:layout_width="312dp"
         android:layout_height="272dp"
         android:src="@drawable/FondoInWHI2"
@@ -236,10 +231,10 @@
         app:layout_constraintHorizontal_bias="0.459"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/constraintLayout5"
-        app:layout_constraintVertical_bias="0.0">
+        app:layout_constraintVertical_bias="0.029">
 
         <Button
-            android:id="@+id/buttonPaper"
+            android:id="@+id/button"
             android:layout_width="117dp"
             android:layout_height="51dp"
             android:backgroundTint="@color/GreenALL"
@@ -252,7 +247,7 @@
             app:layout_constraintVertical_bias="0.022" />
 
         <TextView
-            android:id="@+id/textViewDatePaper"
+            android:id="@+id/textView11"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Fecha"
@@ -264,7 +259,7 @@
             app:layout_constraintVertical_bias="0.223" />
 
         <TextView
-            android:id="@+id/textViewWeightPaper"
+            android:id="@+id/textView12"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Peso (Kg)"
@@ -276,7 +271,7 @@
             app:layout_constraintVertical_bias="0.501" />
 
         <EditText
-            android:id="@+id/editTextDatePaper"
+            android:id="@+id/editTextDate"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:ems="10"
@@ -289,7 +284,7 @@
             app:layout_constraintVertical_bias="0.333" />
 
         <EditText
-            android:id="@+id/editTextNumberDecimalWeightPaper"
+            android:id="@+id/editTextNumberDecimal"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:ems="10"
@@ -312,11 +307,11 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.113"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/editTextNumberDecimalWeightPaper"
+            app:layout_constraintTop_toBottomOf="@+id/editTextNumberDecimal"
             app:layout_constraintVertical_bias="0.0" />
 
         <TextView
-            android:id="@+id/textViewSellPaper"
+            android:id="@+id/textView15"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="10dp"
@@ -326,15 +321,15 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toEndOf="@+id/textView14"
-            app:layout_constraintTop_toBottomOf="@+id/editTextNumberDecimalWeightPaper"
+            app:layout_constraintTop_toBottomOf="@+id/editTextNumberDecimal"
             app:layout_constraintVertical_bias="0.0" />
 
         <Button
-            android:id="@+id/buttonSavePaper"
+            android:id="@+id/button3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:backgroundTint="@color/GreenALL"
             android:text="Guardar"
+            android:backgroundTint="@color/GreenALL"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.882"
@@ -343,7 +338,7 @@
             app:layout_constraintVertical_bias="0.918" />
 
         <Button
-            android:id="@+id/buttonCarton"
+            android:id="@+id/button10"
             android:layout_width="104dp"
             android:layout_height="49dp"
             android:backgroundTint="@color/grey"
@@ -354,7 +349,7 @@
             app:layout_constraintHorizontal_bias="0.708"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.031" />
+            app:layout_constraintVertical_bias="0.022" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 

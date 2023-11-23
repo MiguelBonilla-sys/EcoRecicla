@@ -38,7 +38,7 @@
                 tools:layout_editor_absoluteY="0dp" />
 
             <SearchView
-                android:id="@+id/search"
+                android:id="@+id/searchMetal"
                 android:layout_width="256dp"
                 android:layout_height="66dp"
                 android:layout_marginStart="16dp"
@@ -46,13 +46,13 @@
                 app:layout_constraintTop_toTopOf="parent" />
 
             <ImageButton
-                android:id="@+id/buttonUser"
+                android:id="@+id/button4"
                 android:layout_width="47dp"
                 android:layout_height="50dp"
                 android:src="@drawable/User"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="@+id/imageViewFondoSearchMetal"
-                app:layout_constraintStart_toEndOf="@+id/search"
+                app:layout_constraintStart_toEndOf="@+id/searchMetal"
                 app:layout_constraintTop_toTopOf="parent" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
