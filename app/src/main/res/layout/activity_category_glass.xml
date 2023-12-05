@@ -14,7 +14,8 @@
         android:alpha="0.7"
         app:srcCompat="@drawable/Fondo2"
         tools:layout_editor_absoluteX="-165dp"
-        tools:layout_editor_absoluteY="-630dp" />
+        tools:layout_editor_absoluteY="-630dp"
+        tools:ignore="MissingConstraints" />
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/constraintLayoutSearchGlass"
@@ -22,7 +23,8 @@
         android:layout_height="71dp"
         android:orientation="vertical"
         tools:layout_editor_absoluteX="22dp"
-        tools:layout_editor_absoluteY="46dp">
+        tools:layout_editor_absoluteY="46dp"
+        tools:ignore="MissingConstraints">
         <androidx.constraintlayout.widget.ConstraintLayout
             android:id="@+id/constraintLayoutSearchGlass2"
             android:layout_width="match_parent"
@@ -52,7 +54,8 @@
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="@+id/imageViewFondoSearchGlass"
                 app:layout_constraintStart_toEndOf="@+id/searchGlass"
-                app:layout_constraintTop_toTopOf="parent" />
+                app:layout_constraintTop_toTopOf="parent"
+                tools:ignore="TouchTargetSizeCheck" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
 
@@ -220,7 +223,7 @@
         android:id="@+id/imageViewSquareGlass"
         android:layout_width="312dp"
         android:layout_height="272dp"
-        android:src="@drawable/fondoinhi2"
+        android:src="@drawable/FondoInWHI2"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.454"
@@ -293,6 +296,7 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:inputType="numberDecimal"
+            android:minHeight="48dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.242"
