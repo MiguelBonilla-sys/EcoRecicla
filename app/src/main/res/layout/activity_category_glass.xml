@@ -220,7 +220,7 @@
         android:id="@+id/imageViewSquareGlass"
         android:layout_width="312dp"
         android:layout_height="272dp"
-        android:src="@drawable/FondoInWHI2"
+        android:src="@drawable/fondoinhi2"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.454"
