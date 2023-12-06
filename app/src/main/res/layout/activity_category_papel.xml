@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#DFD7D7"
-    tools:context=".CategoryTextil">
+    tools:context=".categoryPapelYCarton">
 
     <ImageView
         android:id="@+id/imageView8"
@@ -74,7 +74,7 @@
 
     <ImageView
         android:id="@+id/imageView13"
-        android:layout_width="405dp"
+        android:layout_width="401dp"
         android:layout_height="69dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -143,11 +143,13 @@
         android:id="@+id/constraintLayout5"
         android:layout_width="337dp"
         android:layout_height="190dp"
+        android:layout_marginStart="185dp"
         android:layout_marginTop="702dp"
-        android:layout_marginBottom="3dp"
-        app:layout_constraintBottom_toTopOf="@+id/imageView31"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginEnd="202dp"
+        android:layout_marginBottom="372dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView8"
+        app:layout_constraintEnd_toEndOf="@+id/imageView8"
+        app:layout_constraintStart_toStartOf="@+id/imageView8"
         app:layout_constraintTop_toTopOf="@+id/imageView8">
 
         <ImageView
@@ -167,7 +169,7 @@
             android:id="@+id/imageView28"
             android:layout_width="95dp"
             android:layout_height="97dp"
-            android:src="@drawable/fropa3"
+            android:src="@drawable/reciclajepapel"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.94"
@@ -203,7 +205,7 @@
             android:id="@+id/imageView23"
             android:layout_width="54dp"
             android:layout_height="49dp"
-            android:src="@drawable/ropa"
+            android:src="@drawable/papel"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.109"
@@ -229,13 +231,13 @@
             android:id="@+id/textView2"
             android:layout_width="217dp"
             android:layout_height="84dp"
-            android:text="Reciclar textiles es como tejer un futuro sostenible, reduciendo el desperdicio y cuidando nuestro planeta a través de la reutilización de prendas."
+            android:text="Reciclar papel salva árboles, reduce la contaminación y protege la biodiversidad. Únete al movimiento del reciclaje para un mundo más limpio y verde."
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.107"
+            app:layout_constraintHorizontal_bias="0.116"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.993" />
+            app:layout_constraintVertical_bias="0.877" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
@@ -263,15 +265,16 @@
 
         <Button
             android:id="@+id/button"
-            android:layout_width="147dp"
-            android:layout_height="52dp"
-            android:text="Textil"
+            android:layout_width="117dp"
+            android:layout_height="51dp"
             android:backgroundTint="@color/GreenALL"
+            android:text="Papel"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.326"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.018" />
+            app:layout_constraintVertical_bias="0.022" />
 
         <TextView
             android:id="@+id/textView11"
@@ -363,6 +366,20 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.918" />
+
+        <Button
+            android:id="@+id/button10"
+            android:layout_width="104dp"
+            android:layout_height="49dp"
+            android:backgroundTint="@color/grey"
+            android:text="Cartón"
+            android:textColor="@color/black"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.708"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.022" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 

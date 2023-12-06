@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
-    tools:context=".Inicio">
+    tools:context=".loginApp">
 
 
     <ImageView
@@ -14,14 +14,20 @@
         android:layout_height="1439dp"
         app:srcCompat="@drawable/fondo"
         tools:layout_editor_absoluteX="-120dp"
-        tools:layout_editor_absoluteY="-335dp" />
+        tools:layout_editor_absoluteY="-335dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
 
     <androidx.constraintlayout.widget.ConstraintLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_width="355dp"
+        android:layout_height="712dp"
         android:orientation="vertical"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="-16dp">
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
 
         <TextView
             android:id="@+id/textView7"
@@ -44,16 +50,17 @@
             android:id="@+id/textView6"
             android:layout_width="230dp"
             android:layout_height="76dp"
-            android:layout_marginTop="192dp"
             android:text="Recicla"
             android:textAlignment="center"
             android:textColor="#FFFFFF"
             android:textSize="180px"
             android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.502"
+            app:layout_constraintHorizontal_bias="0.497"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.348" />
 
         <ImageView
             android:id="@+id/imageView3"
@@ -87,7 +94,7 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
                 app:layout_constraintVertical_bias="0.571"
-                app:srcCompat="@drawable/FondoIn" />
+                app:srcCompat="@drawable/fondoin" />
 
             <TextView
                 android:id="@+id/textView8"
@@ -107,18 +114,21 @@
                 android:layout_width="141dp"
                 android:layout_height="55dp"
                 android:layout_marginBottom="216dp"
-                android:text="Iniciar Sesión"
                 android:backgroundTint="@color/GreenALL"
+                android:text="Iniciar Sesión"
                 app:layout_constraintBottom_toBottomOf="@+id/imageView5"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent" />
+                app:layout_constraintHorizontal_bias="0.503"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.931" />
 
             <Button
                 android:id="@+id/button6"
                 android:layout_width="141dp"
                 android:layout_height="55dp"
-                android:text="Crear Cuenta"
                 android:backgroundTint="@color/GreenALL"
+                android:text="Crear Cuenta"
                 app:layout_constraintBottom_toBottomOf="@+id/imageView5"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"

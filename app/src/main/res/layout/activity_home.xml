@@ -11,12 +11,15 @@
         android:id="@+id/imageView8"
         android:layout_width="724dp"
         android:layout_height="1264dp"
-        android:layout_marginBottom="96dp"
+        android:layout_marginBottom="92dp"
         android:alpha="0.7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:srcCompat="@drawable/Fondo2"
-        tools:layout_editor_absoluteX="-176dp"
-        tools:ignore="MissingConstraints" />
+        app:srcCompat="@drawable/fondo2"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="-174dp" />
+
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/constraintLayout4"
         android:layout_width="370dp"
@@ -34,23 +37,28 @@
                 android:id="@+id/imageView9"
                 android:layout_width="370dp"
                 android:layout_height="71dp"
-                app:srcCompat="@drawable/Search"
-                tools:layout_editor_absoluteX="0dp"
-                tools:layout_editor_absoluteY="0dp" />
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/search" />
 
             <SearchView
                 android:id="@+id/searchView2"
                 android:layout_width="256dp"
                 android:layout_height="66dp"
-                android:layout_marginStart="16dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="@+id/imageView9"
+                app:layout_constraintHorizontal_bias="0.0"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.4" />
 
             <ImageButton
                 android:id="@+id/button4"
                 android:layout_width="47dp"
                 android:layout_height="50dp"
-                android:src="@drawable/User"
+                android:src="@drawable/user"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="@+id/imageView9"
                 app:layout_constraintStart_toEndOf="@+id/searchView2"
@@ -65,13 +73,14 @@
 
     <ImageView
         android:id="@+id/imageView13"
-        android:layout_width="443dp"
+        android:layout_width="413dp"
         android:layout_height="69dp"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/constraintLayout4"
         app:layout_constraintVertical_bias="0.97"
-        app:srcCompat="@drawable/Search"
-        tools:layout_editor_absoluteX="-16dp"
+        app:srcCompat="@drawable/search"
         tools:ignore="MissingConstraints" />
 
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -94,7 +103,7 @@
             app:layout_constraintEnd_toStartOf="@+id/imageButton1"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:srcCompat="@drawable/Home"
+            app:srcCompat="@drawable/home"
             tools:ignore="SpeakableTextPresentCheck" />
 
         <ImageButton
@@ -106,7 +115,7 @@
             app:layout_constraintHorizontal_bias="0.324"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:srcCompat="@drawable/Categorias"
+            app:srcCompat="@drawable/categorias"
             tools:ignore="SpeakableTextPresentCheck" />
 
         <ImageButton
@@ -118,7 +127,7 @@
             app:layout_constraintHorizontal_bias="0.617"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:srcCompat="@drawable/Estadistica"
+            app:srcCompat="@drawable/estadistica"
             tools:ignore="SpeakableTextPresentCheck" />
 
         <ImageButton
@@ -130,7 +139,7 @@
             app:layout_constraintHorizontal_bias="0.946"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:srcCompat="@drawable/Comunidad"
+            app:srcCompat="@drawable/comunidad"
             tools:ignore="SpeakableTextPresentCheck" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 
@@ -140,7 +149,7 @@
         android:layout_height="468dp"
         app:layout_constraintBottom_toTopOf="@+id/imageView13"
         app:layout_constraintTop_toBottomOf="@+id/constraintLayout4"
-        app:srcCompat="@drawable/FondoInWHI"
+        app:srcCompat="@drawable/fondoinwhi"
         tools:layout_editor_absoluteX="-7dp" />
 
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -157,27 +166,29 @@
             android:id="@+id/titleResumen"
             android:layout_width="157dp"
             android:layout_height="33dp"
-            android:layout_marginTop="24dp"
             android:text="Resumen"
             android:textSize="28sp"
             android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.157"
+            app:layout_constraintHorizontal_bias="0.15"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.036" />
 
         <TextView
             android:id="@+id/titleCategorias"
             android:layout_width="163dp"
             android:layout_height="36dp"
-            android:layout_marginTop="136dp"
             android:text="Categorias"
             android:textSize="28sp"
             android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.156"
+            app:layout_constraintHorizontal_bias="0.162"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.325" />
 
         <TextView
             android:id="@+id/textView9"
@@ -207,22 +218,26 @@
                 android:id="@+id/imageView7"
                 android:layout_width="55dp"
                 android:layout_height="54dp"
+                app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.8"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:srcCompat="@drawable/Papel" />
+                app:layout_constraintVertical_bias="0.0"
+                app:srcCompat="@drawable/papel" />
 
             <Button
                 android:id="@+id/buttonPaper"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Papel"
                 android:backgroundTint="@color/GreenALL"
+                android:text="Papel"
+                app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.156"
+                app:layout_constraintHorizontal_bias="0.153"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.0" />
 
             <Button
                 android:id="@+id/button2"
@@ -248,19 +263,22 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
                 app:layout_constraintVertical_bias="0.821"
-                app:srcCompat="@drawable/Cartton" />
+                app:srcCompat="@drawable/cartton" />
         </androidx.constraintlayout.widget.ConstraintLayout>
 
         <TextView
             android:id="@+id/textView10"
             android:layout_width="163dp"
             android:layout_height="36dp"
-            android:layout_marginTop="136dp"
             android:text="Categorias"
             android:textSize="28sp"
             android:textStyle="bold"
-            tools:layout_editor_absoluteX="28dp"
-            tools:layout_editor_absoluteY="321dp" />
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.155"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.737" />
 
         <TextView
             android:id="@+id/MoreInfo"
@@ -268,8 +286,13 @@
             android:layout_height="wrap_content"
             android:text="TestView"
             android:textSize="20sp"
-            tools:layout_editor_absoluteX="28dp"
-            tools:layout_editor_absoluteY="371dp"></TextView>
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.106"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.822" />
+
     </androidx.constraintlayout.widget.ConstraintLayout>
 
 

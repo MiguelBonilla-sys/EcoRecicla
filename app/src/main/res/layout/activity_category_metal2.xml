@@ -5,72 +5,86 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#DFD7D7"
-    tools:context=".categoryPapelYCarton">
+    tools:context=".CategoryMetal">
+
 
     <ImageView
-        android:id="@+id/imageView8"
+        android:id="@+id/imageViewMetal"
         android:layout_width="724dp"
         android:layout_height="1264dp"
         android:alpha="0.7"
-        app:srcCompat="@drawable/Fondo2"
+        app:srcCompat="@drawable/fondo2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
         tools:layout_editor_absoluteX="-165dp"
         tools:layout_editor_absoluteY="-630dp" />
 
     <androidx.constraintlayout.widget.ConstraintLayout
-        android:id="@+id/constraintLayout4"
+        android:id="@+id/constraintLayoutSearchMetal"
         android:layout_width="370dp"
         android:layout_height="71dp"
         android:orientation="vertical"
-        tools:layout_editor_absoluteX="22dp"
-        tools:layout_editor_absoluteY="46dp">
+        app:layout_constraintBottom_toTopOf="@+id/constraintLayoutInfoMetal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
         <androidx.constraintlayout.widget.ConstraintLayout
-            android:id="@+id/constraintLayout6"
+            android:id="@+id/constraintLayoutSearchMetal2"
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="match_parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
 
             <ImageView
-                android:id="@+id/imageView9"
+                android:id="@+id/imageViewFondoSearchMetal"
                 android:layout_width="370dp"
                 android:layout_height="71dp"
-                app:srcCompat="@drawable/Search"
-                tools:layout_editor_absoluteX="0dp"
-                tools:layout_editor_absoluteY="0dp" />
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/search" />
 
             <SearchView
-                android:id="@+id/searchView2"
+                android:id="@+id/searchMetal"
                 android:layout_width="256dp"
                 android:layout_height="66dp"
-                android:layout_marginStart="16dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="@+id/imageViewFondoSearchMetal"
+                app:layout_constraintHorizontal_bias="0.14"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="1.0" />
 
             <ImageButton
                 android:id="@+id/button4"
                 android:layout_width="47dp"
                 android:layout_height="50dp"
-                android:src="@drawable/User"
+                android:src="@drawable/user"
                 app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="@+id/imageView9"
-                app:layout_constraintStart_toEndOf="@+id/searchView2"
+                app:layout_constraintEnd_toEndOf="@+id/imageViewFondoSearchMetal"
+                app:layout_constraintStart_toEndOf="@+id/searchMetal"
                 app:layout_constraintTop_toTopOf="parent" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
 
 
-
-
-
     </androidx.constraintlayout.widget.ConstraintLayout>
 
     <ImageView
-        android:id="@+id/imageView13"
-        android:layout_width="443dp"
-        android:layout_height="69dp"
+        android:id="@+id/imageViewBarMetal"
+        android:layout_width="409dp"
+        android:layout_height="64dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/constraintLayout4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/constraintLayoutSearchMetal"
         app:layout_constraintVertical_bias="0.97"
-        app:srcCompat="@drawable/Search"
-        tools:layout_editor_absoluteX="-16dp" />
+        app:srcCompat="@drawable/search" />
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="361dp"
@@ -79,23 +93,23 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.566"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/imageView13"
+        app:layout_constraintTop_toTopOf="@+id/imageViewBarMetal"
         app:layout_constraintVertical_bias="0.0">
 
 
         <ImageButton
-            android:id="@+id/imageButton"
+            android:id="@+id/imageButtonHome"
             android:layout_width="64dp"
             android:layout_height="64dp"
             android:layout_marginStart="4dp"
             app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toStartOf="@+id/imageButton1"
+            app:layout_constraintEnd_toStartOf="@+id/imageButtonCategorys"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:srcCompat="@drawable/Home" />
+            app:srcCompat="@drawable/home" />
 
         <ImageButton
-            android:id="@+id/imageButton1"
+            android:id="@+id/imageButtonCategorys"
             android:layout_width="53dp"
             android:layout_height="54dp"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -103,10 +117,10 @@
             app:layout_constraintHorizontal_bias="0.324"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:srcCompat="@drawable/Categorias" />
+            app:srcCompat="@drawable/categorias" />
 
         <ImageButton
-            android:id="@+id/imageButton2"
+            android:id="@+id/imageButtonEstadistcs"
             android:layout_width="58dp"
             android:layout_height="58dp"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -114,10 +128,10 @@
             app:layout_constraintHorizontal_bias="0.617"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:srcCompat="@drawable/Estadistica" />
+            app:srcCompat="@drawable/estadistica" />
 
         <ImageButton
-            android:id="@+id/imageButton3"
+            android:id="@+id/imageButtonComunity"
             android:layout_width="64dp"
             android:layout_height="64dp"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -125,30 +139,47 @@
             app:layout_constraintHorizontal_bias="0.946"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:srcCompat="@drawable/Comunidad" />
+            app:srcCompat="@drawable/comunidad" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 
     <androidx.constraintlayout.widget.ConstraintLayout
-        android:id="@+id/constraintLayout5"
-        android:layout_width="337dp"
-        android:layout_height="190dp"
-        tools:layout_editor_absoluteX="29dp"
-        tools:layout_editor_absoluteY="170dp">
+        android:id="@+id/constraintLayoutInfoMetal"
+        android:layout_width="345dp"
+        android:layout_height="179dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.53"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.333">
 
         <ImageView
-            android:id="@+id/imageView28"
-            android:layout_width="95dp"
-            android:layout_height="97dp"
-            android:src="@drawable/reciclajePapel"
+            android:id="@+id/imageViewCategoryGlass"
+            android:layout_width="351dp"
+            android:layout_height="201dp"
+            app:srcCompat="@drawable/fondocateg"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.94"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.862" />
+            tools:layout_editor_absoluteX="-3dp"
+            tools:layout_editor_absoluteY="-11dp"
+            android:alpha="0.6"/>
 
         <ImageView
-            android:id="@+id/imageView14"
+            android:id="@+id/imageViewMetal2"
+            android:layout_width="95dp"
+            android:layout_height="97dp"
+            android:src="@drawable/fmetal4"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.991"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.827" />
+
+        <ImageView
+            android:id="@+id/imageViewCircleMetal"
             android:layout_width="240dp"
             android:layout_height="100dp"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -157,13 +188,13 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.0"
-            app:srcCompat="@drawable/RectanguleCircle" />
+            app:srcCompat="@drawable/rectangulecircle" />
 
         <ImageView
-            android:id="@+id/imageView19"
+            android:id="@+id/imageViewCircleMetal2"
             android:layout_width="91dp"
             android:layout_height="81dp"
-            android:src="@drawable/circleALL"
+            android:src="@drawable/circleall"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.058"
@@ -172,10 +203,10 @@
             app:layout_constraintVertical_bias="0.108" />
 
         <ImageView
-            android:id="@+id/imageView23"
+            android:id="@+id/imageViewMetal3"
             android:layout_width="54dp"
             android:layout_height="49dp"
-            android:src="@drawable/Papel"
+            android:src="@drawable/metal"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.109"
@@ -184,10 +215,10 @@
             app:layout_constraintVertical_bias="0.167" />
 
         <TextView
-            android:id="@+id/textView"
+            android:id="@+id/textViewMetal"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Papel"
+            android:text="Metales"
             android:textSize="16sp"
             android:textStyle="bold"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -198,16 +229,16 @@
             app:layout_constraintVertical_bias="0.218" />
 
         <TextView
-            android:id="@+id/textView2"
-            android:layout_width="217dp"
-            android:layout_height="84dp"
-            android:text="Reciclar papel salva árboles, reduce la contaminación y protege la biodiversidad. Únete al movimiento del reciclaje para un mundo más limpio y verde."
+            android:id="@+id/textViewInfoMetal"
+            android:layout_width="236dp"
+            android:layout_height="87dp"
+            android:text="El reciclaje de metales es una oportunidad brillante para preservar nuestros recursos naturales, reducir la contaminación y forjar un camino hacia un mundo más sostenible."
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.107"
+            app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.993" />
+            app:layout_constraintVertical_bias="1.0" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
@@ -215,7 +246,7 @@
         android:id="@+id/imageView31"
         android:layout_width="312dp"
         android:layout_height="272dp"
-        android:src="@drawable/FondoInWHI2"
+        android:src="@drawable/fondoinwhi2"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.454"
@@ -230,24 +261,25 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.459"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/constraintLayout5"
+        app:layout_constraintTop_toBottomOf="@+id/constraintLayoutInfoMetal"
         app:layout_constraintVertical_bias="0.029">
 
         <Button
-            android:id="@+id/button"
-            android:layout_width="117dp"
-            android:layout_height="51dp"
-            android:backgroundTint="@color/GreenALL"
-            android:text="Papel"
+            android:id="@+id/buttonCobre"
+            android:layout_width="122dp"
+            android:layout_height="49dp"
+            android:backgroundTint="@color/grey"
+            android:textColor="@color/black"
+            android:text="Cobre"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.326"
+            app:layout_constraintHorizontal_bias="0.301"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.022" />
+            app:layout_constraintVertical_bias="0.018" />
 
         <TextView
-            android:id="@+id/textView11"
+            android:id="@+id/textViewDateMetal"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Fecha"
@@ -259,7 +291,7 @@
             app:layout_constraintVertical_bias="0.223" />
 
         <TextView
-            android:id="@+id/textView12"
+            android:id="@+id/textViewWeightMetal"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Peso (Kg)"
@@ -271,7 +303,7 @@
             app:layout_constraintVertical_bias="0.501" />
 
         <EditText
-            android:id="@+id/editTextDate"
+            android:id="@+id/editTextDateMetal"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:ems="10"
@@ -284,7 +316,7 @@
             app:layout_constraintVertical_bias="0.333" />
 
         <EditText
-            android:id="@+id/editTextNumberDecimal"
+            android:id="@+id/editTextNumberDecimalMetal"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:ems="10"
@@ -297,7 +329,7 @@
             app:layout_constraintVertical_bias="0.644" />
 
         <TextView
-            android:id="@+id/textView14"
+            android:id="@+id/textViewSellMetal"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="17dp"
@@ -307,11 +339,11 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.113"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/editTextNumberDecimal"
+            app:layout_constraintTop_toBottomOf="@+id/editTextNumberDecimalMetal"
             app:layout_constraintVertical_bias="0.0" />
 
         <TextView
-            android:id="@+id/textView15"
+            android:id="@+id/textViewTotalMetal"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="10dp"
@@ -320,12 +352,25 @@
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
-            app:layout_constraintStart_toEndOf="@+id/textView14"
-            app:layout_constraintTop_toBottomOf="@+id/editTextNumberDecimal"
+            app:layout_constraintStart_toEndOf="@+id/textViewSellMetal"
+            app:layout_constraintTop_toBottomOf="@+id/editTextNumberDecimalMetal"
             app:layout_constraintVertical_bias="0.0" />
 
         <Button
-            android:id="@+id/button3"
+            android:id="@+id/buttonAluminio"
+            android:layout_width="110dp"
+            android:layout_height="50dp"
+            android:text="Aluminio"
+            android:backgroundTint="@color/GreenALL"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.709"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.013" />
+
+        <Button
+            android:id="@+id/buttonSaveMetal"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Guardar"
@@ -337,19 +382,7 @@
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.918" />
 
-        <Button
-            android:id="@+id/button10"
-            android:layout_width="104dp"
-            android:layout_height="49dp"
-            android:backgroundTint="@color/grey"
-            android:text="Cartón"
-            android:textColor="@color/black"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.708"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.022" />
+
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 

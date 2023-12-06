@@ -4,4 +4,5 @@
     <color name="white">#FFFFFFFF</color>
     <color name="GreenALL">#3F893F</color>
     <color name="grey">#C3C3C3</color>
+    <color name="sinColor">#D0DBD0</color>
 </resources>
