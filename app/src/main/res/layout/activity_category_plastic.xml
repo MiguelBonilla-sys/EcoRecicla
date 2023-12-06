@@ -12,7 +12,7 @@
         android:layout_width="724dp"
         android:layout_height="1264dp"
         android:alpha="0.7"
-        app:srcCompat="@drawable/Fondo2"
+        app:srcCompat="@drawable/fondo2"
         tools:layout_editor_absoluteX="-165dp"
         tools:layout_editor_absoluteY="-630dp" />
 
@@ -32,7 +32,7 @@
                 android:id="@+id/imageView9"
                 android:layout_width="370dp"
                 android:layout_height="71dp"
-                app:srcCompat="@drawable/Search"
+                app:srcCompat="@drawable/search"
                 tools:layout_editor_absoluteX="0dp"
                 tools:layout_editor_absoluteY="0dp" />
 
@@ -48,7 +48,7 @@
                 android:id="@+id/button4"
                 android:layout_width="47dp"
                 android:layout_height="50dp"
-                android:src="@drawable/User"
+                android:src="@drawable/user"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="@+id/imageView9"
                 app:layout_constraintStart_toEndOf="@+id/searchView2"
@@ -69,7 +69,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/constraintLayout4"
         app:layout_constraintVertical_bias="0.97"
-        app:srcCompat="@drawable/Search"
+        app:srcCompat="@drawable/search"
         tools:layout_editor_absoluteX="-16dp" />
 
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -92,7 +92,7 @@
             app:layout_constraintEnd_toStartOf="@+id/imageButton1"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:srcCompat="@drawable/Home" />
+            app:srcCompat="@drawable/home" />
 
         <ImageButton
             android:id="@+id/imageButton1"
@@ -103,7 +103,7 @@
             app:layout_constraintHorizontal_bias="0.324"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:srcCompat="@drawable/Categorias" />
+            app:srcCompat="@drawable/categorias" />
 
         <ImageButton
             android:id="@+id/imageButton2"
@@ -114,7 +114,7 @@
             app:layout_constraintHorizontal_bias="0.617"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:srcCompat="@drawable/Estadistica" />
+            app:srcCompat="@drawable/estadistica" />
 
         <ImageButton
             android:id="@+id/imageButton3"
@@ -125,7 +125,7 @@
             app:layout_constraintHorizontal_bias="0.946"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:srcCompat="@drawable/Comunidad" />
+            app:srcCompat="@drawable/comunidad" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -139,7 +139,7 @@
             android:id="@+id/imageView28"
             android:layout_width="95dp"
             android:layout_height="97dp"
-            android:src="@drawable/Fplastico1"
+            android:src="@drawable/fplastico1"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.94"
@@ -157,13 +157,13 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.0"
-            app:srcCompat="@drawable/RectanguleCircle" />
+            app:srcCompat="@drawable/rectangulecircle" />
 
         <ImageView
             android:id="@+id/imageView19"
             android:layout_width="91dp"
             android:layout_height="81dp"
-            android:src="@drawable/circleALL"
+            android:src="@drawable/circleall"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.058"
@@ -215,7 +215,7 @@
         android:id="@+id/imageView31"
         android:layout_width="312dp"
         android:layout_height="272dp"
-        android:src="@drawable/FondoInWHI2"
+        android:src="@drawable/fondoinwhi2"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.454"

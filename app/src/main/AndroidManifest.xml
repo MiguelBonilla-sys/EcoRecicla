@@ -49,12 +49,12 @@
             android:name=".RegisterLog"
             android:exported="false" />
         <activity
-            android:name=".Inicio"
+            android:name=".loginApp"
             android:exported="false"
             android:label="@string/title_activity_inicio"
             android:theme="@style/Theme.EcoRecicla" />
         <activity
-            android:name=".Login"
+            android:name=".mainApp"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
