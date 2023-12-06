@@ -12,37 +12,50 @@
         android:layout_width="724dp"
         android:layout_height="1264dp"
         android:alpha="0.7"
-        app:srcCompat="@drawable/fondo2"
-        tools:layout_editor_absoluteX="-165dp"
-        tools:layout_editor_absoluteY="-630dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/fondo2" />
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/constraintLayout4"
         android:layout_width="370dp"
         android:layout_height="71dp"
         android:orientation="vertical"
-        tools:layout_editor_absoluteX="22dp"
-        tools:layout_editor_absoluteY="46dp">
+        app:layout_constraintBottom_toTopOf="@+id/constraintLayout5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
         <androidx.constraintlayout.widget.ConstraintLayout
             android:id="@+id/constraintLayout6"
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="match_parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
 
             <ImageView
                 android:id="@+id/imageView9"
                 android:layout_width="370dp"
                 android:layout_height="71dp"
-                app:srcCompat="@drawable/search"
-                tools:layout_editor_absoluteX="0dp"
-                tools:layout_editor_absoluteY="0dp" />
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/search" />
 
             <SearchView
                 android:id="@+id/searchView2"
                 android:layout_width="256dp"
                 android:layout_height="66dp"
-                android:layout_marginStart="16dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="@+id/imageView9"
+                app:layout_constraintHorizontal_bias="0.14"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.0" />
 
             <ImageButton
                 android:id="@+id/button4"
@@ -57,20 +70,18 @@
         </androidx.constraintlayout.widget.ConstraintLayout>
 
 
-
-
-
     </androidx.constraintlayout.widget.ConstraintLayout>
 
     <ImageView
         android:id="@+id/imageView13"
-        android:layout_width="443dp"
-        android:layout_height="69dp"
+        android:layout_width="410dp"
+        android:layout_height="70dp"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/constraintLayout4"
         app:layout_constraintVertical_bias="0.97"
-        app:srcCompat="@drawable/search"
-        tools:layout_editor_absoluteX="-16dp" />
+        app:srcCompat="@drawable/search" />
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="361dp"
@@ -132,8 +143,25 @@
         android:id="@+id/constraintLayout5"
         android:layout_width="337dp"
         android:layout_height="190dp"
-        tools:layout_editor_absoluteX="29dp"
-        tools:layout_editor_absoluteY="170dp">
+        android:layout_marginTop="702dp"
+        android:layout_marginBottom="372dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView8"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView8">
+
+        <ImageView
+            android:id="@+id/imageViewCategoryGlass"
+            android:layout_width="351dp"
+            android:layout_height="201dp"
+            android:alpha="0.6"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/fondocateg"
+            tools:layout_editor_absoluteX="-3dp"
+            tools:layout_editor_absoluteY="-11dp" />
 
         <ImageView
             android:id="@+id/imageView28"
