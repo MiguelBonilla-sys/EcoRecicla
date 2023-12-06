@@ -8,7 +8,7 @@
     tools:context=".CategoryGlass">
 
     <ImageView
-        android:id="@+id/imageViewGlass1"
+        android:id="@+id/imageViewGlass"
         android:layout_width="724dp"
         android:layout_height="1264dp"
         android:alpha="0.7"
