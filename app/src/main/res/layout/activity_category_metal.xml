@@ -14,6 +14,9 @@
         android:layout_height="1264dp"
         android:alpha="0.7"
         app:srcCompat="@drawable/fondo2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
         tools:layout_editor_absoluteX="-165dp"
         tools:layout_editor_absoluteY="-630dp" />
 
@@ -22,19 +25,26 @@
         android:layout_width="370dp"
         android:layout_height="71dp"
         android:orientation="vertical"
-        tools:layout_editor_absoluteX="22dp"
-        tools:layout_editor_absoluteY="46dp">
+        app:layout_constraintBottom_toTopOf="@+id/constraintLayoutInfoMetal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
         <androidx.constraintlayout.widget.ConstraintLayout
             android:id="@+id/constraintLayoutSearchMetal2"
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="match_parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
 
             <ImageView
                 android:id="@+id/imageViewFondoSearchMetal"
                 android:layout_width="370dp"
                 android:layout_height="71dp"
+                app:layout_constraintEnd_toEndOf="parent"
                 app:srcCompat="@drawable/search"
-                tools:layout_editor_absoluteX="0dp"
                 tools:layout_editor_absoluteY="0dp" />
 
             <SearchView
@@ -58,20 +68,18 @@
         </androidx.constraintlayout.widget.ConstraintLayout>
 
 
-
-
-
     </androidx.constraintlayout.widget.ConstraintLayout>
 
     <ImageView
         android:id="@+id/imageViewBarMetal"
-        android:layout_width="443dp"
-        android:layout_height="69dp"
+        android:layout_width="407dp"
+        android:layout_height="65dp"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/constraintLayoutSearchMetal"
         app:layout_constraintVertical_bias="0.97"
-        app:srcCompat="@drawable/search"
-        tools:layout_editor_absoluteX="-16dp" />
+        app:srcCompat="@drawable/search" />
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="361dp"
@@ -139,6 +147,19 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.333">
+
+        <ImageView
+            android:id="@+id/imageViewCategoryGlass"
+            android:layout_width="351dp"
+            android:layout_height="201dp"
+            app:srcCompat="@drawable/fondocateg"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="-3dp"
+            tools:layout_editor_absoluteY="-11dp"
+            android:alpha="0.6"/>
 
         <ImageView
             android:id="@+id/imageViewMetal2"

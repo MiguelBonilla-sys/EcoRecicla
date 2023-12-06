@@ -13,6 +13,8 @@
         android:layout_height="1264dp"
         android:layout_marginBottom="92dp"
         android:alpha="0.7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:srcCompat="@drawable/fondo2"
         tools:ignore="MissingConstraints"
