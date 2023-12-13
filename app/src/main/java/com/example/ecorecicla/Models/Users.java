@@ -3,9 +3,9 @@ package com.example.ecorecicla.Models;
 public class Users {
 
 
-    private String name;
-    private String email;
-    private String password;
+    public String name;
+    public String email;
+    public String password;
 
     public Users(String name, String email, String password) {
         this.name = name;

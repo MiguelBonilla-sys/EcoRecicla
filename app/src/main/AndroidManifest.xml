@@ -16,6 +16,12 @@
             android:name=".Consejos"
             android:exported="false" />
         <activity
+            android:name=".categoryCarton"
+            android:exported="false" />
+        <activity
+            android:name=".CategoryMetal2Al"
+            android:exported="false" />
+        <activity
             android:name=".Estadisitica"
             android:exported="false" />
         <activity
@@ -31,7 +37,7 @@
             android:name=".CategoryGlass"
             android:exported="false" />
         <activity
-            android:name=".categoryPapelYCarton"
+            android:name=".categoryPapel"
             android:exported="false" />
         <activity
             android:name=".categoryMenu"

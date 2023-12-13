@@ -5,7 +5,7 @@ import android.widget.ImageButton;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-public class Estadisitica extends AppCompatActivity {
+public class categoryCarton extends AppCompatActivity {
     public ImageButton homeButton;
     public ImageButton categoriesButton;
     public ImageButton statisticsButton;
@@ -14,7 +14,7 @@ public class Estadisitica extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_estadisitica);
+        setContentView(R.layout.activity_category_carton);
 
         // Get references to the buttons
         homeButton = findViewById(R.id.imageButtonHome);

@@ -1,14 +1,23 @@
 package com.example.ecorecicla.Models;
 
 public class dataRecycling {
-    private String type;
-    private String date;
-    private String weight;
-
-    public dataRecycling(String type, String date, String weight) {
+    public String type;
+    public String date;
+    public String weight;
+    public String precio;
+    public dataRecycling(String type, String date, String weight, String precio) {
         this.type = type;
         this.date = date;
         this.weight = weight;
+        this.precio = precio;
+    }
+
+    public String getPrecio() {
+        return precio;
+    }
+
+    public void setPrecio(String precio) {
+        this.precio = precio;
     }
 
     public String getType() {
