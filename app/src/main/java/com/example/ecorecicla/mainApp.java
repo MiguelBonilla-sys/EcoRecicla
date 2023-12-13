@@ -25,8 +25,11 @@ public class mainApp extends AppCompatActivity {
         registrarse.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                setContentView(R.layout.activity_register_log);
+                Intent intent2 = new Intent(mainApp.this, RegisterLog.class);
+                startActivity(intent2);
             }
         });
-        }
+    }
+
+
 }

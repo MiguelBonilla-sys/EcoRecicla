@@ -1,5 +1,7 @@
 package com.example.ecorecicla.Models;
 
+
+
 public class Users {
 
 
@@ -35,4 +37,6 @@ public class Users {
     public void setPassword(String password) {
         this.password = password;
     }
+
+
 }
