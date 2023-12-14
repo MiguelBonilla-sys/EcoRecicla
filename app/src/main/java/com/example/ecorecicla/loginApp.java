@@ -16,7 +16,6 @@ import java.io.FileReader;
 public class loginApp extends AppCompatActivity {
     Button login, backInicio;
     EditText emailLogin, passLogin;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -25,7 +24,6 @@ public class loginApp extends AppCompatActivity {
         emailLogin=findViewById(R.id.editTextTextEmailAddress);
         passLogin=findViewById(R.id.editTextTextPassword2);
         backInicio=findViewById(R.id.backInicio);
-
         backInicio.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -33,7 +31,6 @@ public class loginApp extends AppCompatActivity {
                 startActivity(intent);
             }
         });
-
 
         Intent home= new Intent(this, Home.class);
 

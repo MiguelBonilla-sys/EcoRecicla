@@ -187,15 +187,29 @@
 
         <TextView
             android:id="@+id/textView13"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="204dp"
+            android:layout_height="259dp"
             android:text="TextView"
+            android:textAlignment="viewStart"
+            android:textStyle="bold|italic"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.173"
+            app:layout_constraintHorizontal_bias="0.495"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.187" />
+            app:layout_constraintVertical_bias="0.318" />
+
+        <ImageView
+            android:id="@+id/imageView29"
+            android:layout_width="192dp"
+            android:layout_height="194dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.496"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.566"
+            app:srcCompat="@drawable/imagecons" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 

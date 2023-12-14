@@ -23,10 +23,8 @@ import java.util.List;
 
 public class RegisterLog extends AppCompatActivity {
     private static final String USER_DATA_FILE = "userData.txt";
-
     Button register, backbtn;
     EditText name, email, pass;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -36,7 +34,6 @@ public class RegisterLog extends AppCompatActivity {
         email=findViewById(R.id.editTextTextEmailAddress);
         pass= findViewById(R.id.editTextTextPassword2);
         backbtn=findViewById(R.id.backInicio);
-
         backbtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -44,9 +41,7 @@ public class RegisterLog extends AppCompatActivity {
                 startActivity(intent2);
             }
         });
-
         Intent login= new Intent(this, loginApp.class);
-
         register.setOnClickListener(new View.OnClickListener() {
         @Override
         public void onClick(View v) {
@@ -75,7 +70,6 @@ public class RegisterLog extends AppCompatActivity {
             }
         }
     });
-
     }
 
     public void saveUser(Users users){
@@ -91,7 +85,6 @@ public class RegisterLog extends AppCompatActivity {
             e.printStackTrace();
         }
     }
-
     public boolean checkUser (String email, String user){
         File file = new File(getFilesDir(), "user.txt");
         try(BufferedReader bufferedReader = new BufferedReader(new FileReader(file))){
