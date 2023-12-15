@@ -1,5 +1,6 @@
 package com.example.ecorecicla;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.widget.Button;
 import android.widget.EditText;
@@ -14,7 +15,7 @@ import java.io.File;
 import java.io.FileWriter;
 import java.util.Locale;
 
-public class CategoryPlastic extends AppCompatActivity {
+public class categoryPapel extends AppCompatActivity {
     public ImageButton homeButton;
     public ImageButton categoriesButton;
     public ImageButton statisticsButton;
@@ -22,13 +23,14 @@ public class CategoryPlastic extends AppCompatActivity {
 
     public EditText kg, month;
     public TextView price;
-    public Button registerPlast;
+    public Button registerPapel, btnCarton;
+
     public String type;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_category_plastic);
+        setContentView(R.layout.activity_category_papel);
 
         // Get references to the buttons
         homeButton = findViewById(R.id.imageButtonHome);
@@ -48,14 +50,14 @@ public class CategoryPlastic extends AppCompatActivity {
         month = findViewById(R.id.editTextDate);
         kg = findViewById(R.id.editTextNumberDecimal);
         price = findViewById(R.id.textView15);
-        registerPlast = findViewById(R.id.button3);
-        Double FACTOR = 2850.0;
+        registerPapel = findViewById(R.id.button3);
+        Double FACTOR = 1500.0;
 
-        registerPlast.setOnClickListener(view -> {
+        registerPapel.setOnClickListener(view -> {
             if (!month.getText().toString().isEmpty() &&
                     !kg.getText().toString().isEmpty() && !price.getText().toString().isEmpty() ) {
-                type = "Plastic"; // Set type to "Carton" before writing to the file
-                File file = new File(getFilesDir(), "Plastic.txt");
+                type = "Paper"; // Set type to "Carton" before writing to the file
+                File file = new File(getFilesDir(), "Paper.txt");
                 double priceValue = 0.0;
                 try{
                     FileWriter writer = new FileWriter(file, true);
@@ -80,8 +82,11 @@ public class CategoryPlastic extends AppCompatActivity {
             }
         });
 
-
-
+        btnCarton = findViewById(R.id.button10);
+        btnCarton.setOnClickListener(v -> {
+            Intent intent = new Intent(categoryPapel.this, categoryCarton.class);
+            startActivity(intent);
+        });
 
     }
 }

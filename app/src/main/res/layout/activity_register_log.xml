@@ -104,10 +104,10 @@
             android:text="E-mail"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.174"
+            app:layout_constraintHorizontal_bias="0.162"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.281"
+            app:layout_constraintVertical_bias="0.318"
             tools:ignore="MissingConstraints" />
 
         <TextView
@@ -127,34 +127,35 @@
             android:id="@+id/password"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="172dp"
+            android:layout_marginBottom="148dp"
             android:text="Contraseña"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.218"
+            app:layout_constraintHorizontal_bias="0.202"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/editTextTextEmailAddress"
+            app:layout_constraintVertical_bias="0.0"
             tools:ignore="MissingConstraints" />
 
         <EditText
             android:id="@+id/editTextTextEmailAddress"
-            android:layout_width="145dp"
-            android:layout_height="21dp"
+            android:layout_width="150dp"
+            android:layout_height="47dp"
             android:layout_marginBottom="196dp"
             android:ems="10"
             android:inputType="textEmailAddress"
             android:textColor="#000000"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.468"
+            app:layout_constraintHorizontal_bias="0.466"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/Email"
-            app:layout_constraintVertical_bias="0.888" />
+            app:layout_constraintVertical_bias="0.0" />
 
         <EditText
             android:id="@+id/editTextTextPassword2"
-            android:layout_width="148dp"
-            android:layout_height="26dp"
+            android:layout_width="155dp"
+            android:layout_height="44dp"
             android:layout_marginTop="4dp"
             android:ems="10"
             android:inputType="textPassword"
@@ -179,9 +180,10 @@
             android:textSize="14sp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.485"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword2"
-            app:layout_constraintVertical_bias="0.86" />
+            app:layout_constraintVertical_bias="0.367" />
 
         <TextView
             android:id="@+id/titleRegister"
@@ -196,38 +198,10 @@
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.052" />
 
-        <CheckBox
-            android:id="@+id/checkBox"
-            android:layout_width="180dp"
-            android:layout_height="20dp"
-            android:layout_marginTop="4dp"
-            android:text="Acepto terminos y condiciones"
-            android:textSize="10sp"
-            app:layout_constraintBottom_toTopOf="@+id/RegisterButton"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.466"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword2"
-            app:layout_constraintVertical_bias="0.0" />
-
-        <CheckBox
-            android:id="@+id/checkBox2"
-            android:layout_width="180dp"
-            android:layout_height="20dp"
-            android:layout_marginTop="10dp"
-            android:text="Acepto tratamiento de datos"
-            android:textSize="10sp"
-            app:layout_constraintBottom_toTopOf="@+id/RegisterButton"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.533"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/checkBox"
-            app:layout_constraintVertical_bias="0.0" />
-
         <EditText
             android:id="@+id/editTextText3"
-            android:layout_width="148dp"
-            android:layout_height="26dp"
+            android:layout_width="151dp"
+            android:layout_height="39dp"
             android:ems="10"
             android:inputType="text"
             android:text="Name"

@@ -95,7 +95,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.734"
+        app:layout_constraintVertical_bias="0.702"
         tools:ignore="MissingConstraints">
 
 
@@ -109,7 +109,7 @@
             app:layout_constraintHorizontal_bias="0.175"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.241"
+            app:layout_constraintVertical_bias="0.138"
             tools:ignore="MissingConstraints" />
 
         <TextView
@@ -123,26 +123,28 @@
             app:layout_constraintHorizontal_bias="0.218"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/editTextTextEmailAddress"
+            app:layout_constraintVertical_bias="0.0"
             tools:ignore="MissingConstraints" />
 
         <EditText
             android:id="@+id/editTextTextEmailAddress"
-            android:layout_width="145dp"
-            android:layout_height="21dp"
+            android:layout_width="146dp"
+            android:layout_height="42dp"
             android:layout_marginBottom="196dp"
             android:ems="10"
             android:inputType="textEmailAddress"
             android:textColor="#000000"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.468"
+            app:layout_constraintHorizontal_bias="0.476"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/Email" />
+            app:layout_constraintTop_toBottomOf="@+id/Email"
+            app:layout_constraintVertical_bias="0.0" />
 
         <EditText
             android:id="@+id/editTextTextPassword2"
-            android:layout_width="148dp"
-            android:layout_height="26dp"
+            android:layout_width="153dp"
+            android:layout_height="42dp"
             android:layout_marginTop="8dp"
             android:ems="10"
             android:inputType="textPassword"
@@ -152,7 +154,7 @@
             android:textColorHint="#000000"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.442"
+            app:layout_constraintHorizontal_bias="0.535"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/password"
             app:layout_constraintVertical_bias="0.0" />
@@ -207,15 +209,14 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="56dp"
+        android:backgroundTint="@color/sinColor"
         android:text="Volver al Inicio."
         android:textAllCaps="false"
         android:textColor="#3F893F"
-        android:backgroundTint="@color/sinColor"
         android:textSize="16sp"
         android:textStyle="italic"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/constraintLayout"
         app:layout_constraintVertical_bias="1.0" />
