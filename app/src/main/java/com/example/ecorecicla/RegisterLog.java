@@ -22,9 +22,9 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class RegisterLog extends AppCompatActivity {
-    private static final String USER_DATA_FILE = "userData.txt";
-    Button register, backbtn;
-    EditText name, email, pass;
+    public static final String USER_DATA_FILE = "userData.txt";
+    public Button register, backbtn;
+    public EditText name, email, pass;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
