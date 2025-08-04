@@ -1,2 +1,24 @@
 # EcoRecicla
-El proyecto propuesto es un sistema de gestión de reciclaje integral y fácil de usar. Este sistema permitirá a los usuarios registrar y hacer seguimiento de sus actividades de reciclaje en diferentes categorías de materiales, como plástico, papel, vidrio, entre otros. Los usuarios podrán iniciar sesión en el sistema utilizando sus credenciales o registrarse como nuevos usuarios. Una vez dentro del sistema, los usuarios podrán seleccionar la categoría de material que desean registrar y hacer seguimiento. Además, podrán ingresar los datos de reciclaje para una categoría específica, como la cantidad de kilogramos de plástico reciclados o el número de hojas de papel reciclado y el valor ganado en cada categoría y el mes.
+EcoRecicla nace como una solución tecnológica al creciente problema de la gestión de residuos en comunidades, instituciones y empresas. El proyecto busca no solo facilitar el registro y seguimiento de materiales reciclados, sino también fomentar una cultura de sostenibilidad y responsabilidad ambiental entre sus usuarios.
+
+Este sistema está diseñado para que cualquier persona, organización o entidad pueda llevar un control detallado de sus actividades de reciclaje. Además, EcoRecicla permite visualizar estadísticas, obtener reportes personalizados y acceder a incentivos que motiven la participación activa en el proceso de reciclaje.
+
+El desarrollo de EcoRecicla está pensado para ser escalable y adaptable a distintos contextos, desde pequeños grupos hasta grandes instituciones, permitiendo integrar nuevas funcionalidades según las necesidades de los usuarios y los avances en políticas medioambientales.EcoRecicla nace como una solución tecnológica al creciente problema de la gestión de residuos en comunidades, instituciones y empresas. El proyecto busca no solo facilitar el registro y seguimiento de materiales reciclados, sino también fomentar una cultura de sostenibilidad y responsabilidad ambiental entre sus usuarios.
+
+Este sistema está diseñado para que cualquier persona, organización o entidad pueda llevar un control detallado de sus actividades de reciclaje. Además, EcoRecicla permite visualizar estadísticas, obtener reportes personalizados y acceder a incentivos que motiven la participación activa en el proceso de reciclaje.
+
+El desarrollo de EcoRecicla está pensado para ser escalable y adaptable a distintos contextos, desde pequeños grupos hasta grandes instituciones, permitiendo integrar nuevas funcionalidades según las necesidades de los usuarios y los avances en políticas medioambientales.
+
+
+## Características principales
+
+- Registro de usuarios y actividades de reciclaje.
+- Seguimiento de materiales reciclados.
+- Estadísticas y reportes personalizados.
+- Interfaz intuitiva y accesible.
+- Incentivos y recompensas por participación activa.
+
+
+
+
+
